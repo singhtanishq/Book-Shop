@@ -1,0 +1,66 @@
+# ----------------------------------------------------------------------
+'''regex(constant) and check(email) function are to validate email-address format. 
+   This function will not check whether email-address really exists or not.
+   Module used here is 're' '''
+
+regex = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
+def check(email):
+    if re.search(regex, email):
+        return 1
+    else:
+        return 0
+
+# import config
+# '''Underneath program is for
+            #    Swarit  and Tanishq when they will show their validate_email module in their project file. '''
+            # input_email = input("Enter email of the user: ")
+            # def check_email(mail):
+            #     x = config.check(mail)
+            #     if x == 1:
+            #         cursor.execute(
+            #             f"INSERT INTO accounts (username, passwd, name_u, email) VALUES('{input_username}', '{input_password}', '{input_name}',"
+            #             f"'{mail}')")
+            #         mycon2.commit()
+            #         print("Successfully Registered User")
+            #     else:
+            #         em = str(input("Invalid Email. Enter Again"))
+            #         check_email(em)
+            #
+            # check_email(input_email)
+
+
+                # '''Underneath program is for
+                #    Swarit  and Tanishq when they will show their validate_email module in their project file. '''
+
+                # def check_email(mail):
+                #     x = config.check(mail)
+                #     if x == 1:
+                #         cursor.execute(f"UPDATE accounts SET email = '{mail}' WHERE username = '{user_name}'")
+                #         mycon2.commit()  # Updating the user
+                #         print("Successfully Updated")
+                #     else:
+                #         em = str(input("Invalid Email. Enter Again: "))
+                #         check_email(em)
+                #
+                # check_email(new_mail)
+
+ # '''Underneath program is for
+        #    Swarit  and Tanishq when they will show their validate_email module in their project file. '''
+
+        # input_email = input("          Enter email address: ")
+        # def check_email(mail):
+        #     x = config.check(mail)
+        #     if x == 1:
+        #         cursor.execute(
+        #             f"INSERT INTO accounts (username, passwd, name_u, email) VALUES('{input_username}', "
+        #             f"'{input_password}', '{input_name}', '{mail}')")
+        #         mycon2.commit()
+        #         print("Registering")
+        #         sleep(2)
+        #         print(f"Successfully Added User '{input_username}'")
+        #     else:
+        #         em = str(input("Invalid Email. Enter Again: "))
+        #         check_email(em)
+        #
+        # check_email(input_email)
+
