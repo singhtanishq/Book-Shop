@@ -1,5 +1,5 @@
 # Book-Shop
-This project was created only with the scope of school project by using only MySQL and Python only.
+This project was created only with the scope of school project by using only MySQL and Python only for Session 2020-21 (CBSE Board)
 
 In this project modules used are:
   1. smtplib (for sending emails)
