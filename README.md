@@ -5,7 +5,7 @@ In this project modules used are:
   1. smtplib (for sending emails)
   2. mysql.connector (for connection to MySQL Server)
   3. fpdf (to autogenerate pdf invoices)
-  4. validate_email (to validate emials of users on sign up)
+  4. validate_email (to validate emails of users on sign up)
   5. time (to register the order time)
   6. string (for string formatting)
   7. datetime (for calculating date differences)
